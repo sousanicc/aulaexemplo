@@ -11,4 +11,4 @@ RUN chmod 777 mvnw
 
 RUN ./mvnw package
 
-CMD ["java","-jar","target/aulabd-0.0.1-SNAPSHOT.jar"]
+CMD ["java","-jar","target/exemplo-0.0.1-SNAPSHOT.jar"]
