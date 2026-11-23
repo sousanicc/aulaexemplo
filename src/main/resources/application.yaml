@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-dc2bkke1egvs739me8fg-a.oregon-postgres.render.com/aulabd_ghjn
+    username: aulabd_ghjn_user
+    password: RWTHhwNiAfDyA2wI5EgMZl726e0VrnL5
+    driver-class-name: org.postgresql.Driver
+
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema-postgres.sql
